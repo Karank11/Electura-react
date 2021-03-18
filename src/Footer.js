@@ -3,10 +3,8 @@ import "./Footer.css";
 import {NavLink} from "react-router-dom";
 const Footer= ()=>{
     return(
-        <>
-        <div className="">
-        <footer  className='text-center '>
-                <div className="row main-footer ">
+        <footer  className=' container-fluid text-center foot'>
+                <div className="row main-footer container-fluid ">
                     <div className="col-3 col-lg "><NavLink to="/">Home</NavLink></div>
                     <div className="col-3 col-lg"><NavLink to="/about">About Us</NavLink></div>
                     <div className="col-6 col-lg"><NavLink to="/jointeacher">Join as Teacher</NavLink></div>
@@ -21,10 +19,7 @@ const Footer= ()=>{
                         <p>Copyright © 2021 Electura | Powered by BrandCobblers Services Pvt. Ltd.</p>
                     </div>                  
                 </div>         
-        </footer>
-        </div>
-        </>
-        
+        </footer>        
     );
 };
 
