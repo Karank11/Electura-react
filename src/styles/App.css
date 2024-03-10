@@ -1,0 +1,33 @@
+.background {
+    background-image: url('../images/background.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* Adjust the background size */
+    background-position: center; /* Adjust the background position */
+    height: 100vh; /* Set the height of the background container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up the full height of the viewport */
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+  .navbar {
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
